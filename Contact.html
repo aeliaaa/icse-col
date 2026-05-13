@@ -7,22 +7,34 @@
 <link rel="stylesheet" href="decoration.css">
 </head>
 <body>
-
+<div class="toplinks">
+        <a href="./">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="projects.html">Our Projects</a>
+        <a href="products.html">Our Products</a>
+        <a href="contacts.html">Contact Us</a>
+    </div>
 <div class="banner">
-    <h1>Contact Us</h1>
+    <h2>Student Contact Form</h2>
 </div>
 <div class="row">
     <div class="content">
-    <h2>Contact Us</h2>
+    <h3>Fill Out the Form</h3>
 
     <form action="">
-        <input type="text" placeholder="Enter your name" required><br><br>
-        <input type="email" placeholder="Enter your email" required><br><br>
-        <input type="number" placeholder="Enter your phone number" required><br><br>
-        <input type="subjectline" placeholder="Enter your subject " required><br><br>
 
+        
+        <label for="full_name">Full Name: </label><br>
+        <input type="text" id="full_name" placeholder="Enter your name" required><br><br>
+        <label for="email">Email: </label><br>
+        <input type="email" id="email" placeholder="Enter your email" required><br><br>
+        <label for="phone">Phone Number: </label><br>
+        <input type="number" id="phone" placeholder="Enter your phone number" required><br><br>
+        <label for="subject">Subject: </label><br>
+        <input type="text" id="subject" placeholder="Enter your subject" required><br><br>
 
-      <textarea name="message" placeholder="Enter your message here..." required></textarea><br><br>
+        <label for="message">Message: </label><br>
+      <textarea id="message" name="message" placeholder="Enter your message here..." required></textarea><br><br>
 
         <input type="submit" value="Update Message"><br><br>
         <button type="submit">Send Message</button><br><br>
